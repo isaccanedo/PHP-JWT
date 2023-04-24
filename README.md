@@ -16,8 +16,8 @@ Use o composer para gerenciar suas dependências e baixe o PHP-JWT:
 composer require firebase/php-jwt
 ```
 
-Optionally, install the `paragonie/sodium_compat` package from composer if your
-php is < 7.2 or does not have libsodium installed:
+Opcionalmente, instale o pacote `paragonie/sodium_compat` do composer se o seu
+php é < 7.2 ou não tem libsodium instalado:
 
 ```bash
 composer require paragonie/sodium_compat
