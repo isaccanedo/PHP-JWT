@@ -5,7 +5,7 @@
 
 PHP-JWT
 =======
-A simple library to encode and decode JSON Web Tokens (JWT) in PHP, conforming to [RFC 7519](https://tools.ietf.org/html/rfc7519).
+Uma biblioteca simples para codificar e decodificar JSON Web Tokens (JWT) em PHP, em conformidade com [RFC 7519](https://tools.ietf.org/html/rfc7519).
 
 Installation
 ------------
