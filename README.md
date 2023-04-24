@@ -10,7 +10,7 @@ Uma biblioteca simples para codificar e decodificar JSON Web Tokens (JWT) em PHP
 Instalação
 ------------
 
-Use composer to manage your dependencies and download PHP-JWT:
+Use o composer para gerenciar suas dependências e baixe o PHP-JWT:
 
 ```bash
 composer require firebase/php-jwt
