@@ -23,7 +23,7 @@ php é < 7.2 ou não tem libsodium instalado:
 composer require paragonie/sodium_compat
 ```
 
-Example
+Examplo
 -------
 ```php
 use Firebase\JWT\JWT;
