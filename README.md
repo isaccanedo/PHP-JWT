@@ -41,7 +41,7 @@ $payload = [
  * IMPORTANTE:
  * Você deve especificar algoritmos suportados para seu aplicativo. Ver
  * https://tools.ietf.org/html/draft-ietf-jose-json-web-algorithms-40
- * for a list of spec-compliant algorithms.
+ * para obter uma lista de algoritmos compatíveis com especificações.
  */
 $jwt = JWT::encode($payload, $key, 'HS256');
 $decoded = JWT::decode($jwt, new Key($key, 'HS256'));
