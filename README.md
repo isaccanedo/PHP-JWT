@@ -127,8 +127,8 @@ echo "Encode:\n" . print_r($jwt, true) . "\n";
 $decoded = JWT::decode($jwt, new Key($publicKey, 'RS256'));
 
 /*
- NOTE: This will now be an object instead of an associative array. To get
- an associative array, you will need to cast it as such:
+ NOTA: Isso agora será um objeto em vez de uma matriz associativa. Obter
+ uma matriz associativa, você precisará convertê-la como tal:
 */
 
 $decoded_array = (array) $decoded;
