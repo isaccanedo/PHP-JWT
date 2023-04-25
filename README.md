@@ -39,7 +39,7 @@ $payload = [
 
 /**
  * IMPORTANTE:
- * You must specify supported algorithms for your application. See
+ * Você deve especificar algoritmos suportados para seu aplicativo. See
  * https://tools.ietf.org/html/draft-ietf-jose-json-web-algorithms-40
  * for a list of spec-compliant algorithms.
  */
