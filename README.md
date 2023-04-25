@@ -219,7 +219,7 @@ $jwks = ['keys' => []];
 JWT::decode($payload, JWK::parseKeySet($jwks));
 ```
 
-Using Cached Key Sets
+Usando conjuntos de chaves em cache
 ---------------------
 
 The `CachedKeySet` class can be used to fetch and cache JWKS (JSON Web Key Sets) from a public URI.
