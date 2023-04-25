@@ -56,12 +56,13 @@ uma matriz associativa, você precisará convertê-la como tal:
 $decoded_array = (array) $decoded;
 
 /**
- * You can add a leeway to account for when there is a clock skew times between
- * the signing and verifying servers. It is recommended that this leeway should
- * not be bigger than a few minutes.
- *
- * Source: http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html#nbfDef
- */
+  * Você pode adicionar uma margem de manobra para contabilizar quando há uma diferença de horário entre
+  * os servidores de assinatura e verificação. Recomenda-se que esta margem de manobra seja
+  * não ser maior do que alguns minutos.
+  *
+  * Fonte: http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html#nbfDef
+  */
+  
 JWT::$leeway = 60; // $leeway in seconds
 $decoded = JWT::decode($jwt, new Key($key, 'HS256'));
 ```
