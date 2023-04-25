@@ -337,7 +337,7 @@ Time: 0 seconds, Memory: 2.50Mb
 OK (5 tests, 5 assertions)
 ```
 
-New Lines in private keys
+Novas linhas em chaves privadas
 -----
 
 If your private key contains `\n` characters, be sure to wrap it in double quotes `""`
