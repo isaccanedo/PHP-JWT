@@ -172,7 +172,7 @@ $decoded = JWT::decode($jwt, new Key($publicKey, 'RS256'));
 echo "Decode:\n" . print_r((array) $decoded, true) . "\n";
 ```
 
-Example with EdDSA (libsodium and Ed25519 signature)
+Exemplo com EdDSA (libsodium e assinatura Ed25519)
 ----------------------------
 ```php
 use Firebase\JWT\JWT;
