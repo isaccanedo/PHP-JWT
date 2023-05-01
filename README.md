@@ -142,7 +142,7 @@ Example with a passphrase
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
 
-// Your passphrase
+// Sua senha
 $passphrase = '[YOUR_PASSPHRASE]';
 
 // Your private key file with passphrase
