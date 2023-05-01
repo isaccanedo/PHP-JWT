@@ -203,7 +203,7 @@ $decoded = JWT::decode($jwt, new Key($publicKey, 'EdDSA'));
 echo "Decode:\n" . print_r((array) $decoded, true) . "\n";
 ````
 
-Using JWKs
+Usando JWKs
 ----------
 
 ```php
