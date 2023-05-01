@@ -135,7 +135,7 @@ $decoded_array = (array) $decoded;
 echo "Decode:\n" . print_r($decoded_array, true) . "\n";
 ```
 
-Example with a passphrase
+Exemplo com uma frase secreta
 -------------------------
 
 ```php
