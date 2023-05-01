@@ -146,7 +146,7 @@ use Firebase\JWT\Key;
 $passphrase = '[YOUR_PASSPHRASE]';
 
 // Seu arquivo de chave privada com senha
-// Can be generated with "ssh-keygen -t rsa -m pem"
+// Pode ser gerado com "ssh-keygen -t rsa -m pem"
 $privateKeyFile = '/path/to/key-with-passphrase.pem';
 
 // Create a private key of type "resource"
