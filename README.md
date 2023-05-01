@@ -222,8 +222,8 @@ JWT::decode($payload, JWK::parseKeySet($jwks));
 Usando conjuntos de chaves em cache
 ---------------------
 
-The `CachedKeySet` class can be used to fetch and cache JWKS (JSON Web Key Sets) from a public URI.
-This has the following advantages:
+A classe `CachedKeySet` pode ser usada para buscar e armazenar em cache JWKS (JSON Web Key Sets) de um URI público.
+Isso tem as seguintes vantagens:
 
 1. The results are cached for performance.
 2. If an unrecognized key is requested, the cache is refreshed, to accomodate for key rotation.
