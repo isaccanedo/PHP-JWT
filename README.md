@@ -311,7 +311,7 @@ try {
 }
 ```
 
-#### Casting to array
+#### Transmitindo para matriz
 
 The return value of `JWT::decode` is the generic PHP object `stdClass`. If you'd like to handle with arrays
 instead, you can do the following:
