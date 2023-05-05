@@ -313,8 +313,8 @@ try {
 
 #### Transmitindo para matriz
 
-The return value of `JWT::decode` is the generic PHP object `stdClass`. If you'd like to handle with arrays
-instead, you can do the following:
+O valor de retorno de `JWT::decode` é o objeto PHP genérico `stdClass`. Se você gostaria de lidar com arrays
+em vez disso, você pode fazer o seguinte:
 
 ```php
 // return type is stdClass
