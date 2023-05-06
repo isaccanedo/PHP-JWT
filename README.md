@@ -236,7 +236,7 @@ use Firebase\JWT\JWT;
 // The URI for the JWKS you wish to cache the results from
 $jwksUri = 'https://www.gstatic.com/iap/verify/public_key-jwk';
 
-// Create an HTTP client (can be any PSR-7 compatible HTTP client)
+// Crie um cliente HTTP (pode ser qualquer cliente HTTP compatível com PSR-7)
 $httpClient = new GuzzleHttp\Client();
 
 // Create an HTTP request factory (can be any PSR-17 compatible HTTP request factory)
