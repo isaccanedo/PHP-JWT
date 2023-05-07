@@ -298,8 +298,8 @@ try {
 }
 ```
 
-All exceptions in the `Firebase\JWT` namespace extend `UnexpectedValueException`, and can be simplified
-like this:
+Todas as exceções no namespace `Firebase\JWT` estendem `UnexpectedValueException` e podem ser simplificadas
+assim:
 
 ```php
 try {
