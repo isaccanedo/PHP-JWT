@@ -233,7 +233,7 @@ Isso tem as seguintes vantagens:
 use Firebase\JWT\CachedKeySet;
 use Firebase\JWT\JWT;
 
-// The URI for the JWKS you wish to cache the results from
+// O URI para o JWKS do qual você deseja armazenar em cache os resultados
 $jwksUri = 'https://www.gstatic.com/iap/verify/public_key-jwk';
 
 // Crie um cliente HTTP (pode ser qualquer cliente HTTP compatível com PSR-7)
